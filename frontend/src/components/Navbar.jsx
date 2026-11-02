@@ -5,7 +5,7 @@ import {Menu,X,Brain} from "lucide-react"
 const Navbar = () => {
     const [menu, setMenu] = useState(false);
     return (
-        <nav className="border-b border-slate-800 bg-slate-950" >
+        <nav className="border-b border-slate-800 bg-slate-950 text-white" >
             <div className="  px-6 py-4 bg-slate-950  flex items-center justify-between">
                 <h2 className=" flex gap-2 items-center text-2xl font-bold ">
                     <Brain size={24}/> 
